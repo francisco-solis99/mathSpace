@@ -1,8 +1,12 @@
 {
   "extends": "stylelint-config-standard",
   "rules": {
-    "indentation": 4,
+    "indentation": 2,
     "declaration-colon-newline-after": "always-multi-line"
   },
-  "ignoreFiles":["build/**","dist/**","**/*.js"]
+  "ignoreFiles": [
+    "build/**",
+    "dist/**",
+    "**/*.js"
+  ]
 }
