@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/francisco-solis99/mathSpace/issues"
   },
-  "homepage": "https://github.com/francisco-solis99/mathSpace#readme"
+  "homepage": "https://github.com/francisco-solis99/mathSpace#readme",
+  "devDependencies": {
+    "stylelint": "^14.5.2",
+    "stylelint-config-standard": "^25.0.0"
+  }
 }
