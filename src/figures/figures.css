@@ -1,0 +1,15 @@
+.app {
+  min-width: 300px;
+  max-width: 1400px;
+}
+
+.hero {
+  width: 100%;
+  background-color: var(--back-color);
+  padding: 30px 10px;
+}
+
+.figure {
+  width: 90%;
+  margin: 0 auto;
+}

@@ -1,5 +1,20 @@
+:root {
+  --back-color: #ecf0f3;
+  --header-color: #2f4858;
+  --font: "Biryani", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: var(--font);
 }
