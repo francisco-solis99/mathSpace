@@ -34,6 +34,11 @@ class MathSpaceHeader extends HTMLElement {
       font-size: 3rem;
       font-weight: 700;
     }
+
+    .logo__title > a {
+      color: white;
+      text-decoration: none;
+    }
    `;
   }
 
@@ -48,7 +53,7 @@ class MathSpaceHeader extends HTMLElement {
       <picture class="logo__wrapper">
         <img src="../assets/logoMathSpace.svg" alt="Logo de MathSpace" class="logo__image">
       </picture>
-      <h1 class="logo__title">MathSpace</h1>
+      <h1 class="logo__title"><a href="../index.html">MathSpace</a></h1>
     </header>`;
   }
 }

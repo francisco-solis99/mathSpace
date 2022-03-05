@@ -23,3 +23,12 @@
 mathspace-figure {
   margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+  }
+}
