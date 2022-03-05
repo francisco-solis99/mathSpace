@@ -12,7 +12,6 @@ class Figure extends HTMLElement {
         display: block;
         width: 90%;
         max-width: 800px;
-        margin: 0 auto;
         margin-bottom: 40px;
      }
 
@@ -120,6 +119,7 @@ class Figure extends HTMLElement {
       this.setAttribute('name', `${DEFAULT_FIGURE}`);
     }
     this.render();
+    this.addInputs();
   }
 
   render () {
@@ -146,6 +146,19 @@ class Figure extends HTMLElement {
         Perimeter:81<span class="figure__answer-unit">cm</span>
       </p>
   </div>`;
+  }
+
+  addInputs () {
+    console.log('yeah');
+  }
+
+  getInputs () {
+    const inputsHtml = {
+      circle: `
+        <label>
+        <label>
+      `
+    };
   }
 }
 
