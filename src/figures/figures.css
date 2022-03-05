@@ -12,6 +12,9 @@
 }
 
 .hero {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
   width: 100%;
   background-color: var(--back-color);
   padding: 30px 10px;

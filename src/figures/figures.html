@@ -8,15 +8,21 @@
   <title>Figures | MathSpace</title>
   <link rel="stylesheet" href="/src/styles.css">
   <link rel="stylesheet" href="/src/figures/figures.css">
-  <script type="module" src="./figures.js" async></script>
+  <script type="module" src="./figures.js" defer></script>
 </head>
 
 <body>
   <div class="app">
     <mathspace-header></mathspace-header>
     <main class="hero">
-      <mathspace-figure name="circle" style="--color-back: #00DE83; --color-figure: #22E997; --color-shadow-dark: 0 189 11; --color-shadow-white: 0 255 152;"></mathspace-figure>
-      <!-- <mathspace-figure></mathspace-figure> -->
+      <mathspace-figure name="circle" style="--color-back: #00DE83; --color-figure: #22E997; --color-shadow-dark: 0 189 11; --color-shadow-white: 0 255 152;">
+      </mathspace-figure>
+      <mathspace-figure name="rectangle" style="--color-back: #E0565B; --color-figure: #E28084; --color-shadow-dark: 190 73 77; --color-shadow-white: 255 99 105;">
+      </mathspace-figure>
+      <mathspace-figure name="triangle" style="--color-back: #FFCE00; --color-figure: #FFDA41; --color-shadow-dark: 217 175 0; --color-shadow-white: 255 237 0;">
+      </mathspace-figure>
+      <mathspace-figure name="square" style="--color-back: #00C4FF; --color-figure: #58D8FF; --color-shadow-dark: 0 167 217; --color-shadow-white: 0 255 255;">
+      </mathspace-figure>
     </main>
   </div>
 </body>
