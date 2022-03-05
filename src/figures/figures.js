@@ -1,2 +1,2 @@
 import '../components/MathSpaceHeader.js';
-import '../components/Circle.js';
+import '../components/Figure.js';
