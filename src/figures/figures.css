@@ -1,3 +1,11 @@
+:root {
+  /* Default Colors */
+  --color-back: #00de83;
+  --color-figure: #22e997;
+  --color-shadow-dark: 0 189 11;
+  --color-shadow-white: 0 255 152;
+}
+
 .app {
   min-width: 300px;
   max-width: 1400px;
@@ -7,9 +15,4 @@
   width: 100%;
   background-color: var(--back-color);
   padding: 30px 10px;
-}
-
-.figure {
-  width: 90%;
-  margin: 0 auto;
 }
