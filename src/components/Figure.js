@@ -11,7 +11,7 @@ class Figure extends HTMLElement {
      :host {
         display: block;
         width: 90%;
-        max-width: 800px;
+        max-width: 400px;
         margin: 0 auto;
         margin-bottom: 40px;
      }
@@ -110,6 +110,18 @@ class Figure extends HTMLElement {
        font-weight: 700;
      }
 
+     .figure__label {
+       text-align: left;
+     }
+
+     .figure__text-span {
+       font-size: 1.6rem;
+       font-weight: 500;
+       display: inline-block;
+       color: white;
+       margin-bottom: 5px;
+     }
+
    `;
   }
 
@@ -129,7 +141,7 @@ class Figure extends HTMLElement {
       <div class="figure__draw"></div>
       <h2 class="figure__name">${this.figureName}</h2>
       <form action="" class="figure__form">
-        <input list="units" name="unit" id="unit" class="figure__input figure__units">
+        <input list="units" name="unit" id="unit" class="figure__input figure__units" value="cm">
         <datalist id="units" class="figure__dataList-units">
           <option value="cm" class="figure__option-unit"></option>
           <option value="m" class="figure__option-unit"></option>
@@ -137,13 +149,13 @@ class Figure extends HTMLElement {
         </datalist>
 
         <div class="figure__buttons">
-          <button class="figure__btn">Area</button>
-          <button class="figure__btn">Perimeter</button>
+          <button class="figure__btn" type="button">Area</button>
+          <button class="figure__btn" type="button">Perimeter</button>
         </div>
       </form>
 
       <p class="figure__answer">
-        Perimeter:81<span class="figure__answer-unit">cm</span>
+
       </p>
   </div>`;
   }
